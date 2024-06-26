@@ -1,0 +1,10 @@
+kibot:
+  version: 1
+
+preflight:
+  check_zone_fills: true
+  erc:
+    filters:
+    - filter: 'ignore simulation errors'
+      error: 'simulation_model_issue'
+  drc: true
